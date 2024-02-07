@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'login.dart';
+
 class SignUp extends StatefulWidget {
   const SignUp({super.key});
 
@@ -369,6 +371,7 @@ class _SignUpState extends State<SignUp> {
                       Center(
                         child: TextButton(
                           onPressed: () {
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Login()));
                             // Navigate to login page
                           },
                           child: Text(

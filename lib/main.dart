@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'Auth/login.dart';
+import 'Splash/splash1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      home: Login(),
+      home: SplashScreen1(),
     );
   }
 }

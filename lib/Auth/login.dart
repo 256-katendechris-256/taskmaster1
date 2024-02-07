@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:homework/Auth/signup.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});
@@ -263,6 +264,7 @@ class _LoginState extends State<Login> {
                         // Center the "Sign up" text
                         child: TextButton(
                           onPressed: () {
+                            Navigator.push(context, MaterialPageRoute(builder:(context)=> SignUp() ));
                             // Handle the sign-up action
                           },
                           child: Row(
